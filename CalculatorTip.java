@@ -22,7 +22,7 @@ public class CalculatorTip {
             double totalAmount = billAmount + tipAmount;
             double perPersonAmount = totalAmount / numberOfPeople;
 
-            System.out.printf("Сумма счёта: %.2f%n", billAmount);
+            System.out.printf("\nСумма счёта: %.2f%n", billAmount);
             System.out.printf("Процент чаевых: %.2f%%%n", tipPercentage);
             System.out.printf("Сколько человек участвовало в обеде: %d%n", numberOfPeople);
             System.out.printf("Общий счёт: %.2f%n", totalAmount);
